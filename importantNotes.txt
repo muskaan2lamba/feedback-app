@@ -1,0 +1,7 @@
+Difference between JSX and JS
+import React from 'react'
+function App() {
+    return React.createElement('div', {className : 'container'},
+    React.createElement('h1', {}, 'My App'))
+}
+That's why JSX is much better than JS
